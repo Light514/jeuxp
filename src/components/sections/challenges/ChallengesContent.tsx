@@ -111,7 +111,7 @@ export function ChallengesContent({ challenges }: ChallengesContentProps) {
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}
                 whileHover={{ y: -8 }}
-                className="group cursor-pointer"
+                className="group"
               >
                 <div className="aspect-[4/3] relative overflow-hidden mb-4">
                   <Image
