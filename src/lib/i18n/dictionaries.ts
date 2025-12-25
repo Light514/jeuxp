@@ -142,6 +142,7 @@ export interface Dictionary {
       title: string;
       tiktok: string;
       facebook: string;
+      instagram: string;
     };
     newsletter: {
       title: string;
