@@ -1,0 +1,401 @@
+{
+  "meta": {
+    "title": "Challenge Rooms in Montreal | JeuXP - Immersive Cyberpunk Challenges",
+    "description": "New gaming concept in Montreal. 6 immersive 3-minute challenges. Earn XP, level up, become a legend. Carrefour Angrignon, LaSalle."
+  },
+  "nav": {
+    "home": "Home",
+    "challenges": "Challenges",
+    "about": "About",
+    "groupsEvents": "Groups & Events",
+    "faq": "FAQ",
+    "legal": "Legal"
+  },
+  "home": {
+    "announcement": "JeuXP is coming to LaSalle in 2026",
+    "cta": "Discover the experience"
+  },
+  "challenges": {
+    "tagline": "New game concept in Montreal",
+    "subtitle": "6 challenge rooms. 3 minutes per challenge. Your legend starts here.",
+    "intro": "Imagine yourself inside a video game… for real.",
+    "pillars": [
+      {
+        "id": "challenges",
+        "title": "6 challenges",
+        "description": "Test your reflexes, mind, and cardio through six full-scale immersive challenges."
+      },
+      {
+        "id": "time",
+        "title": "3 minutes",
+        "description": "You have 3 minutes to complete your mission solo or in a team of 2 to 4 players."
+      },
+      {
+        "id": "xp",
+        "title": "5 XP Levels",
+        "description": "Earn points and unlock XP levels."
+      },
+      {
+        "id": "infinite",
+        "title": "Endless Replay",
+        "description": "Keep playing. Get better. Become a legend."
+      },
+      {
+        "id": "cyberpunk",
+        "title": "Cyberpunk",
+        "description": "Step into a neon-soaked world—futuristic, electric, and fully immersive."
+      }
+    ],
+    "roomsTitle": "Challenges",
+    "rooms": [
+      {
+        "id": "toxik",
+        "name": "TOXIK",
+        "description": "The floor is toxic. Move from platform to platform to stay alive as long as possible.",
+        "type": ["Agility", "Cardio"],
+        "players": "Solo or 2-4 players",
+        "image": "toxic.webp"
+      },
+      {
+        "id": "lzr-x",
+        "name": "LZR-X",
+        "description": "Grab your blaster! Shoot the targets that light up—never hit the ones that go dark.",
+        "type": ["Precision", "Reflexes"],
+        "players": "Solo or 2-4 players",
+        "image": "lzr-x.webp"
+      },
+      {
+        "id": "xpress",
+        "name": "XPRESS",
+        "description": "Speed is everything. Hit the glowing buttons before your rival does!",
+        "type": ["Speed", "Competition"],
+        "players": "2-4 players (competitive)",
+        "image": "xpress.webp"
+      },
+      {
+        "id": "lzr-e",
+        "name": "LZR-E",
+        "description": "Dodge the lasers, hit the lights, and complete your mission without getting caught.",
+        "type": ["Agility", "Coordination"],
+        "players": "Solo or 2-4 players",
+        "image": "lzr-e.webp"
+      },
+      {
+        "id": "synk",
+        "name": "SYNK",
+        "description": "Guide the ball through the maze by cooperating from both sides.",
+        "type": ["Cooperation", "Communication"],
+        "players": "2 players (team)",
+        "image": "synk.webp"
+      },
+      {
+        "id": "impak",
+        "name": "IMPAK",
+        "description": "Throw the balls through the rings to hit the targets.",
+        "type": ["Precision", "Throwing"],
+        "players": "Solo or 2-4 players",
+        "image": "impak.webp"
+      }
+    ],
+    "quickFaq": [
+      {
+        "question": "What is JeuXP?",
+        "answer": "JeuXP is a challenge center: you enter, play for 3 minutes per challenge, then step out! Your goal: beat your score, earn XP points, and reach all 5 levels."
+      },
+      {
+        "question": "Do I need to book in advance?",
+        "answer": "No reservation is required. Just show up whenever you want and play!"
+      },
+      {
+        "question": "How many people can play?",
+        "answer": "You can play solo or in a team of 2 to 4 players."
+      },
+      {
+        "question": "What's the minimum age?",
+        "answer": "Access is not permitted for children under 6 years old. Players under 12 years old must be accompanied by an adult. We recommend ages 16 and up to fully enjoy the experience."
+      },
+      {
+        "question": "How long does a challenge last?",
+        "answer": "Each challenge lasts 3 minutes. You can play as many rounds as you want, depending on the time package you've chosen."
+      }
+    ],
+    "viewAllFaq": "See all questions",
+    "location": {
+      "title": "Location",
+      "mall": "Carrefour Angrignon",
+      "address": "7077 Newman Blvd, LaSalle, Quebec H8N 0K1",
+      "mapLink": "View on map"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About",
+      "slogan": "Your legend starts here"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "content": [
+        "At JeuXP, we have one simple mission: to create a unique space where adrenaline, challenges, and fun collide.",
+        "Inspired by over 100 escape games and challenge rooms tested around the world, we wanted to bring to Montreal a new generation of interactive entertainment — faster, more intense, and truly designed for today's youth.",
+        "Our ultra-short challenge rooms (3 minutes each) will put your reflexes, mind, and cardio to the test. Run, think, react, and earn XP to level up. It's fast, endlessly replayable, affordable… and completely addictive.",
+        "JeuXP is more than just entertainment — it's a modern, immersive experience in the heart of Quebec's shopping malls."
+      ]
+    },
+    "differentiators": [
+      {
+        "icon": "⚡",
+        "title": "Speed",
+        "description": "3-minute challenges vs 60-minute traditional escape games. Instant, intense action."
+      },
+      {
+        "icon": "🔄",
+        "title": "Replayability",
+        "description": "Gamified XP system. Level up, improve your scores, become a legend. Not a one-time experience."
+      },
+      {
+        "icon": "💰",
+        "title": "Accessibility",
+        "description": "Affordable pricing, no reservations required. Show up when you want, play as much as you want."
+      },
+      {
+        "icon": "🎮",
+        "title": "Modernity",
+        "description": "Cyberpunk universe, neon aesthetics, video game-inspired challenges. Built for Gen Z and gamers."
+      }
+    ],
+    "vision": {
+      "title": "Our Vision",
+      "content": "As the first center in Montreal to offer interactive challenge rooms inspired by global trends, our goal goes beyond entertainment — we're building an ecosystem where young people can socialize, move, push their limits, and create their legend."
+    }
+  },
+  "groupsEvents": {
+    "hero": {
+      "title": "Groups & Events",
+      "subtitle": "Let's join forces to create tomorrow's experience"
+    },
+    "intro": "At JeuXP, we believe innovation is born from collaboration. As the first center in Montreal to offer interactive challenge rooms inspired by global trends, our goal goes beyond entertainment — we're building an ecosystem where businesses, institutions, and creators come together to inspire the next generation.",
+    "eventTypes": [
+      {
+        "icon": "🎂",
+        "title": "Birthday Parties",
+        "description": "Celebrate your birthday with friends in a unique cyberpunk universe. Team challenges, friendly competition, and unforgettable memories."
+      },
+      {
+        "icon": "💼",
+        "title": "Corporate Team Building",
+        "description": "Strengthen team cohesion with collaborative and competitive challenges. An original activity that breaks from the usual routine."
+      },
+      {
+        "icon": "🎓",
+        "title": "School Groups",
+        "description": "Supervised activity for schools, colleges, and student associations. Combine fun with skill development."
+      },
+      {
+        "icon": "🎉",
+        "title": "Private Events",
+        "description": "Reserve the entire space for your special event. Private party, product launch, corporate celebration."
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Reach a young, engaged audience",
+        "description": "Teens and young adults active on TikTok, Instagram, YouTube, and Snapchat."
+      },
+      {
+        "title": "Associate your brand with innovation",
+        "description": "A unique, immersive concept that's growing fast."
+      },
+      {
+        "title": "Create mutual value",
+        "description": "Through cross-promotions, employee or student discounts, and tailored marketing collaborations."
+      },
+      {
+        "title": "Support the local community",
+        "description": "By encouraging a safe, energetic space where young people can socialize, move, and push their limits."
+      }
+    ],
+    "form": {
+      "title": "Contact Us",
+      "subtitle": "Want to explore a partnership with JeuXP? Let's discuss a collaboration tailored to your needs.",
+      "fields": {
+        "name": "Full Name",
+        "email": "Business Email",
+        "eventType": "Event Type",
+        "participants": "Number of Participants",
+        "message": "Your message / proposal"
+      },
+      "eventOptions": {
+        "birthday": "Birthday Party",
+        "teambuilding": "Team Building",
+        "school": "School Group",
+        "private": "Private Event",
+        "partnership": "Business Partnership",
+        "other": "Other"
+      },
+      "submit": "Send my request",
+      "success": "Your request has been sent successfully! We'll contact you soon.",
+      "error": "An error occurred. Please try again."
+    }
+  },
+  "faq": {
+    "hero": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Got questions? Here are the most common answers!"
+    },
+    "sections": [
+      {
+        "title": "General",
+        "items": [
+          {
+            "question": "What is JeuXP?",
+            "answer": "JeuXP is a challenge center: you enter, play for 3 minutes per challenge, then step out! Your goal: beat your score, earn XP points, and reach all 5 levels. Each room tests your reflexes, cardio, or precision."
+          },
+          {
+            "question": "Do I need to book in advance?",
+            "answer": "No reservation is required. Just show up whenever you want and play!"
+          },
+          {
+            "question": "How many people can play?",
+            "answer": "You can play solo or in a team of 2 to 4 players."
+          },
+          {
+            "question": "What's the minimum age?",
+            "answer": "Access is not permitted for children under 6 years old. Players under 12 years old must be accompanied by an adult. We recommend ages 16 and up to fully enjoy the experience."
+          },
+          {
+            "question": "Do I need to sign a waiver?",
+            "answer": "Yes. A liability waiver must be signed upon arrival before playing."
+          }
+        ]
+      },
+      {
+        "title": "Challenges",
+        "items": [
+          {
+            "question": "What types of challenges are there?",
+            "answer": "Speed, precision, coordination… each room offers a unique and immersive challenge."
+          },
+          {
+            "question": "How long does a challenge last?",
+            "answer": "Each challenge lasts 3 minutes. You can play as many rounds as you want, depending on the time package you've chosen."
+          },
+          {
+            "question": "Can you see everything in one visit?",
+            "answer": "No — and that's what makes it fun! The idea is to come back, discover new challenges, beat your score, and reach all 5 XP levels."
+          },
+          {
+            "question": "Are all rooms always open?",
+            "answer": "Yes, except in cases of exceptional maintenance."
+          }
+        ]
+      },
+      {
+        "title": "Before You Play",
+        "items": [
+          {
+            "question": "What should I wear?",
+            "answer": "Wear comfortable clothes — light sportswear or casual. There's no specific dress code — what matters most is that you can move freely!"
+          },
+          {
+            "question": "Can I leave and come back the same day?",
+            "answer": "Yes, as long as your bracelet or pass is still valid, you can exit and return anytime during the day."
+          },
+          {
+            "question": "Do you have lockers?",
+            "answer": "Yes, secure lockers are available to store your personal belongings while you play."
+          }
+        ]
+      },
+      {
+        "title": "Booking & Events",
+        "items": [
+          {
+            "question": "How can I make a reservation?",
+            "answer": "For group reservations of 10 people or more, you can contact us: In person at the reception or by email at: contact@jeuxp.com"
+          },
+          {
+            "question": "Do you host parties or private events?",
+            "answer": "Yes! It's possible to reserve the entire space for a party, corporate event, or special activity. Check the Group Reservations section or contact us directly for more information."
+          },
+          {
+            "question": "Do you offer gift cards?",
+            "answer": "Yes, gift cards are available directly at the reception."
+          },
+          {
+            "question": "What is your cancellation policy?",
+            "answer": "Once your bracelet has been purchased, no refund is possible, except in the event of a major technical issue preventing the activity from taking place."
+          }
+        ]
+      }
+    ]
+  },
+  "legal": {
+    "title": "Terms and Conditions",
+    "rules": {
+      "title": "Rules",
+      "items": [
+        "Access to the games is reserved for participants aged 6 and older. Children under 12 must be accompanied by a responsible adult.",
+        "Access is prohibited to anyone under the influence of alcohol, drugs, or any substances affecting their faculties.",
+        "Participants must comply with staff directions at all times. Failure to do so may result in immediate expulsion without refund.",
+        "Any abusive use or intentional damage to equipment or rooms will result in charges for repair or replacement costs.",
+        "Participants must behave safely and respectfully toward other players and staff. Any behavior deemed dangerous, violent, or inappropriate may lead to expulsion without refund."
+      ]
+    },
+    "terms": {
+      "title": "Terms of Use",
+      "items": [
+        "Participation in JeuXP activities is undertaken at the participants' own risk. While the games are designed to be safe, the operator cannot be held responsible for minor injuries, falls, or accidents that may occur during normal activity.",
+        "All ticket sales are final, non-refundable, and non-exchangeable, unless otherwise required by law. Displayed prices are before taxes.",
+        "The operator assumes no responsibility for any loss, theft, or damage to personal property incurred by participants while on the premises.",
+        "The operator reserves the right to expel any participant who fails to comply with the rules or engages in inappropriate behavior — without refund.",
+        "These Terms of Use are governed by the laws of Quebec. Any dispute shall be subject to the exclusive jurisdiction of the courts of the judicial district of Montreal (Quebec)."
+      ]
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "items": [
+        "JeuXP may collect certain personal information, including your name, email address, phone number, and details related to reservations and payments.",
+        "This information is used solely to manage reservations and payments, communicate with customers (confirmations, follow-ups, promotions), and ensure the safety and proper operation of our activities.",
+        "All information is securely stored and retained only for as long as necessary for the purposes for which it was collected. Access is limited to authorized JeuXP personnel."
+      ]
+    }
+  },
+  "footer": {
+    "tagline": "Your legend starts here",
+    "location": {
+      "title": "Location",
+      "mall": "Carrefour Angrignon",
+      "address": "7077 Newman Blvd, LaSalle, Quebec H8N 0K1"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "contact@jeuxp.com"
+    },
+    "social": {
+      "title": "Social Media",
+      "tiktok": "https://www.tiktok.com/@jeuxp_game",
+      "facebook": "https://www.facebook.com/profile.php?id=61584206935267"
+    },
+    "newsletter": {
+      "title": "Subscribe to our newsletter",
+      "placeholder": "Your email address",
+      "button": "Subscribe",
+      "success": "Thanks for subscribing!"
+    },
+    "legal": {
+      "rules": "Rules",
+      "terms": "Terms of Use",
+      "privacy": "Privacy Policy"
+    },
+    "copyright": "© 2025 JeuXP. All rights reserved"
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us",
+    "bookNow": "Book Now",
+    "viewAll": "View All",
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "backToHome": "Back to Home"
+  }
+}

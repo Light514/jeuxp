@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-cyber-black text-white antialiased;
+  }
+
+  /* Custom scrollbar for cyberpunk feel */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-cyber-dark;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-neon-cyan rounded;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-neon-cyan/80;
+  }
+
+  /* Firefox scrollbar */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: theme("colors.neon.cyan") theme("colors.cyber.dark");
+  }
+
+  /* Selection color */
+  ::selection {
+    @apply bg-neon-cyan/30 text-white;
+  }
+}
+
+@layer components {
+  /* Neon text glow effect */
+  .text-glow-cyan {
+    text-shadow: 0 0 10px theme("colors.neon.cyan"),
+      0 0 20px theme("colors.neon.cyan"), 0 0 40px theme("colors.neon.cyan");
+  }
+
+  .text-glow-magenta {
+    text-shadow: 0 0 10px theme("colors.neon.magenta"),
+      0 0 20px theme("colors.neon.magenta"),
+      0 0 40px theme("colors.neon.magenta");
+  }
+
+  .text-glow-yellow {
+    text-shadow: 0 0 10px theme("colors.neon.yellow"),
+      0 0 20px theme("colors.neon.yellow"), 0 0 40px theme("colors.neon.yellow");
+  }
+
+  /* Cyberpunk border glow */
+  .border-glow {
+    position: relative;
+  }
+
+  .border-glow::before {
+    content: "";
+    position: absolute;
+    inset: -1px;
+    background: linear-gradient(
+      45deg,
+      theme("colors.neon.cyan"),
+      theme("colors.neon.magenta"),
+      theme("colors.neon.cyan")
+    );
+    border-radius: inherit;
+    z-index: -1;
+    opacity: 0.5;
+    filter: blur(4px);
+  }
+
+  /* Scan line overlay effect */
+  .scan-lines::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(
+      0deg,
+      transparent,
+      transparent 2px,
+      rgba(0, 0, 0, 0.1) 2px,
+      rgba(0, 0, 0, 0.1) 4px
+    );
+    pointer-events: none;
+  }
+
+  /* Cyber grid background */
+  .cyber-grid-bg {
+    background-image: linear-gradient(
+        rgba(0, 240, 255, 0.03) 1px,
+        transparent 1px
+      ),
+      linear-gradient(90deg, rgba(0, 240, 255, 0.03) 1px, transparent 1px);
+    background-size: 50px 50px;
+  }
+}
+
+@layer utilities {
+  /* Hide scrollbar but allow scroll */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Gradient text */
+  .gradient-text {
+    @apply bg-gradient-to-r from-neon-cyan via-neon-magenta to-neon-cyan bg-clip-text text-transparent;
+    background-size: 200% 100%;
+  }
+}

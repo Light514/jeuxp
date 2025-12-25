@@ -1,0 +1,401 @@
+{
+  "meta": {
+    "title": "Salle de défis à Montréal | JeuXP - Défis immersifs cyberpunk",
+    "description": "Nouveau concept de jeu à Montréal. 6 défis immersifs de 3 minutes. Accumule des XP, monte de niveau, deviens une légende. Carrefour Angrignon, LaSalle."
+  },
+  "nav": {
+    "home": "Accueil",
+    "challenges": "Les Défis",
+    "about": "À Propos",
+    "groupsEvents": "Groupes & Événements",
+    "faq": "FAQ",
+    "legal": "Légal"
+  },
+  "home": {
+    "announcement": "JeuXP arrive à LaSalle en 2026",
+    "cta": "Découvre l'expérience"
+  },
+  "challenges": {
+    "tagline": "Nouveau concept de jeu à Montréal",
+    "subtitle": "6 salles de défi. 3 minutes par défi. Ta légende commence ici.",
+    "intro": "Imagine-toi plongé dans un jeu vidéo… en vrai.",
+    "pillars": [
+      {
+        "id": "challenges",
+        "title": "6 défis",
+        "description": "Teste tes réflexes, ton esprit et ton cardio à travers six défis immersifs grandeur nature."
+      },
+      {
+        "id": "time",
+        "title": "3 minutes",
+        "description": "Tu as 3 minutes pour accomplir ta mission en solo ou en équipe de 2 à 4 joueurs."
+      },
+      {
+        "id": "xp",
+        "title": "5 niveaux XP",
+        "description": "Accumule des points et débloque les niveaux XP."
+      },
+      {
+        "id": "infinite",
+        "title": "Joue à l'infini",
+        "description": "Rejoue. Perfectionne-toi. Deviens une légende."
+      },
+      {
+        "id": "cyberpunk",
+        "title": "Cyberpunk",
+        "description": "Un univers cyberpunk: néons, ambiance futuriste et vibes immersives."
+      }
+    ],
+    "roomsTitle": "Salles de défis",
+    "rooms": [
+      {
+        "id": "toxik",
+        "name": "TOXIK",
+        "description": "Le sol est Toxik. Déplace-toi de plateforme en plateforme pour rester en vie le plus longtemps possible.",
+        "type": ["Agilité", "Cardio"],
+        "players": "Solo ou 2-4 joueurs",
+        "image": "toxic.webp"
+      },
+      {
+        "id": "lzr-x",
+        "name": "LZR-X",
+        "description": "Prends ton blaster. Tire sur les cibles qui s'allument sans jamais toucher celles qui s'éteignent.",
+        "type": ["Précision", "Réflexes"],
+        "players": "Solo ou 2-4 joueurs",
+        "image": "lzr-x.webp"
+      },
+      {
+        "id": "xpress",
+        "name": "XPRESS",
+        "description": "Sois plus rapide que ton adversaire : touche les boutons qui s'allument avant lui !",
+        "type": ["Vitesse", "Compétition"],
+        "players": "2-4 joueurs (compétitif)",
+        "image": "xpress.webp"
+      },
+      {
+        "id": "lzr-e",
+        "name": "LZR-E",
+        "description": "Active les boutons qui s'allument… sans te faire toucher par les lasers.",
+        "type": ["Agilité", "Coordination"],
+        "players": "Solo ou 2-4 joueurs",
+        "image": "lzr-e.webp"
+      },
+      {
+        "id": "synk",
+        "name": "SYNK",
+        "description": "Faites passer la balle à travers le labyrinthe en coopérant des deux côtés.",
+        "type": ["Coopération", "Communication"],
+        "players": "2 joueurs (équipe)",
+        "image": "synk.webp"
+      },
+      {
+        "id": "impak",
+        "name": "IMPAK",
+        "description": "Lance les balles dans les anneaux pour atteindre les cibles.",
+        "type": ["Précision", "Lancer"],
+        "players": "Solo ou 2-4 joueurs",
+        "image": "impak.webp"
+      }
+    ],
+    "quickFaq": [
+      {
+        "question": "C'est quoi JeuXP?",
+        "answer": "Un centre de défis éclairs : tu entres, tu joues 3 minutes par défi, tu ressors. Ton objectif : battre ton score, accumuler des points XP et atteindre les 5 niveaux."
+      },
+      {
+        "question": "Faut-il réserver?",
+        "answer": "Non, aucune réservation n'est nécessaire. Tu viens quand tu veux et tu joues !"
+      },
+      {
+        "question": "Combien de personnes peuvent jouer?",
+        "answer": "Tu peux jouer en solo ou en équipe de 2 à 4 joueurs."
+      },
+      {
+        "question": "À partir de quel âge?",
+        "answer": "L'accès est interdit aux enfants de moins de 6 ans. Les jeunes de moins de 12 ans doivent être accompagnés d'un adulte. Nous recommandons 16 ans et plus pour profiter pleinement de l'expérience."
+      },
+      {
+        "question": "Combien de temps dure un défi?",
+        "answer": "Chaque défi dure 3 minutes. Tu peux ensuite enchaîner autant de fois que tu veux, selon le forfait de temps que tu as choisi."
+      }
+    ],
+    "viewAllFaq": "Voir toutes les questions",
+    "location": {
+      "title": "Localisation",
+      "mall": "Carrefour Angrignon",
+      "address": "7077 Newman Blvd, LaSalle, Quebec H8N 0K1",
+      "mapLink": "Voir sur la carte"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "À Propos",
+      "slogan": "Ta légende commence ici"
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "content": [
+        "Chez JeuXP, on a une mission simple : créer un espace unique où l'adrénaline, les défis et le plaisir se rencontrent.",
+        "Inspirés par plus de 100 expériences de jeux d'évasion et salles de défis testées à travers le monde, nous avons voulu offrir à Montréal une nouvelle génération de divertissement interactif, plus rapide, plus intense, et surtout, à l'image des jeunes d'aujourd'hui.",
+        "Nos salles de défis ultra-courtes (3 minutes chacune). Tu cours, tu réfléchis, tu réagis et tu gagnes de l'XP pour monter de niveau. C'est rapide, rejouable à l'infini, abordable… et complètement addictif.",
+        "JeuXP, c'est bien plus qu'un divertissement. C'est une expérience moderne et immersive dans les centres d'achat du Québec."
+      ]
+    },
+    "differentiators": [
+      {
+        "icon": "⚡",
+        "title": "Rapidité",
+        "description": "3 minutes par défi vs 60 minutes pour les escape games traditionnels. Action intense et immédiate."
+      },
+      {
+        "icon": "🔄",
+        "title": "Rejouabilité",
+        "description": "Système XP gamifié. Monte de niveau, améliore tes scores, deviens une légende. Pas une expérience one-time."
+      },
+      {
+        "icon": "💰",
+        "title": "Accessibilité",
+        "description": "Prix abordables, pas de réservation nécessaire. Viens quand tu veux, joue autant que tu veux."
+      },
+      {
+        "icon": "🎮",
+        "title": "Modernité",
+        "description": "Univers cyberpunk, esthétique néon, défis inspirés des jeux vidéo. Conçu pour la Gen Z et les gamers."
+      }
+    ],
+    "vision": {
+      "title": "Notre Vision",
+      "content": "Premier centre à Montréal à offrir des salles de défis interactives inspirées des tendances mondiales, nous voulons bâtir plus qu'un lieu de divertissement : un écosystème où les jeunes peuvent socialiser, bouger, se dépasser et créer leur légende."
+    }
+  },
+  "groupsEvents": {
+    "hero": {
+      "title": "Groupes & Événements",
+      "subtitle": "Unir nos forces pour créer l'expérience de demain"
+    },
+    "intro": "Chez JeuXP, nous croyons que l'innovation naît de la collaboration. Premier centre à Montréal à offrir des salles de défis interactives inspirées des tendances mondiales, nous voulons bâtir plus qu'un lieu de divertissement : un écosystème où entreprises, institutions et créateurs de contenu se rencontrent pour inspirer la nouvelle génération.",
+    "eventTypes": [
+      {
+        "icon": "🎂",
+        "title": "Fêtes d'anniversaire",
+        "description": "Célèbre ton anniversaire avec tes amis dans un univers cyberpunk unique. Défis en équipe, compétition amicale, et souvenirs inoubliables."
+      },
+      {
+        "icon": "💼",
+        "title": "Team Building Corporate",
+        "description": "Renforcez la cohésion d'équipe avec des défis collaboratifs et compétitifs. Une activité originale qui sort du cadre habituel."
+      },
+      {
+        "icon": "🎓",
+        "title": "Groupes Scolaires",
+        "description": "Activité encadrée pour les écoles, cégeps et associations étudiantes. Allier plaisir et développement de compétences."
+      },
+      {
+        "icon": "🎉",
+        "title": "Événements Privés",
+        "description": "Réservez l'espace complet pour votre événement spécial. Soirée privée, lancement de produit, célébration d'entreprise."
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Accéder à une clientèle jeune et engagée",
+        "description": "Adolescents et jeunes adultes actifs sur TikTok, Instagram, YouTube et Snapchat."
+      },
+      {
+        "title": "Associer votre marque à l'innovation",
+        "description": "Un concept unique, immersif et en pleine croissance."
+      },
+      {
+        "title": "Créer de la valeur mutuelle",
+        "description": "Via des promotions croisées, des rabais employés ou étudiants, et des collaborations marketing adaptées."
+      },
+      {
+        "title": "Soutenir la communauté locale",
+        "description": "En encourageant un espace sécuritaire où les jeunes peuvent socialiser, bouger et se dépasser."
+      }
+    ],
+    "form": {
+      "title": "Contactez-nous",
+      "subtitle": "Vous souhaitez explorer une collaboration avec JeuXP? Discutons d'un partenariat adapté à vos besoins.",
+      "fields": {
+        "name": "Nom complet",
+        "email": "Courriel professionnel",
+        "eventType": "Type d'événement",
+        "participants": "Nombre de participants",
+        "message": "Votre message / proposition"
+      },
+      "eventOptions": {
+        "birthday": "Fête d'anniversaire",
+        "teambuilding": "Team Building",
+        "school": "Groupe Scolaire",
+        "private": "Événement Privé",
+        "partnership": "Partenariat Commercial",
+        "other": "Autre"
+      },
+      "submit": "Envoyer ma demande",
+      "success": "Votre demande a été envoyée avec succès! Nous vous contacterons bientôt.",
+      "error": "Une erreur s'est produite. Veuillez réessayer."
+    }
+  },
+  "faq": {
+    "hero": {
+      "title": "Questions Fréquentes",
+      "subtitle": "Tu te poses des questions? Voici les réponses les plus demandées."
+    },
+    "sections": [
+      {
+        "title": "Général",
+        "items": [
+          {
+            "question": "C'est quoi JeuXP?",
+            "answer": "Un centre de défis éclairs : tu entres, tu joues 3 minutes par défi, tu ressors. Ton objectif : battre ton score, accumuler des points XP et atteindre les 5 niveaux. Chaque salle met à l'épreuve tes réflexes, ton cardio ou ta précision."
+          },
+          {
+            "question": "Faut-il réserver?",
+            "answer": "Non, aucune réservation n'est nécessaire. Tu viens quand tu veux et tu joues !"
+          },
+          {
+            "question": "Combien de personnes peuvent jouer?",
+            "answer": "Tu peux jouer en solo ou en équipe de 2 à 4 joueurs."
+          },
+          {
+            "question": "À partir de quel âge?",
+            "answer": "L'accès est interdit aux enfants de moins de 6 ans. Les jeunes de moins de 12 ans doivent être accompagnés d'un adulte. Nous recommandons 16 ans et plus pour profiter pleinement de l'expérience."
+          },
+          {
+            "question": "Faut-il signer un formulaire/waiver?",
+            "answer": "Oui. Une décharge de responsabilité devra être signée à ton arrivée avant de jouer."
+          }
+        ]
+      },
+      {
+        "title": "Défis",
+        "items": [
+          {
+            "question": "Quels types de défis il y a?",
+            "answer": "Vitesse, précision, coordination… chaque salle propose un défi unique et immersif."
+          },
+          {
+            "question": "Combien de temps dure un défi?",
+            "answer": "Chaque défi dure 3 minutes. Tu peux ensuite enchaîner autant de fois que tu veux, selon le forfait de temps que tu as choisi."
+          },
+          {
+            "question": "Est-ce qu'on voit tout en une visite?",
+            "answer": "Non — et c'est ça le fun ! Le concept, c'est de revenir pour découvrir de nouveaux défis, améliorer ton score et atteindre les 5 niveaux XP."
+          },
+          {
+            "question": "Est-ce que toutes les salles sont toujours ouvertes?",
+            "answer": "Oui, sauf en cas de maintenance exceptionnelle."
+          }
+        ]
+      },
+      {
+        "title": "Infos pratiques",
+        "items": [
+          {
+            "question": "Comment dois-je m'habiller?",
+            "answer": "Porte des vêtements confortables, style sport léger ou casual. Aucun code vestimentaire particulier — l'important, c'est d'être à l'aise pour bouger !"
+          },
+          {
+            "question": "Puis-je quitter et revenir dans la même journée?",
+            "answer": "Oui, tant que ton bracelet ou ton pass est toujours valide, tu peux sortir et revenir."
+          },
+          {
+            "question": "Avez-vous des casiers?",
+            "answer": "Oui, des casiers sécurisés sont disponibles pour ranger tes effets personnels pendant que tu joues."
+          }
+        ]
+      },
+      {
+        "title": "Réservation & Événements",
+        "items": [
+          {
+            "question": "Comment réserver?",
+            "answer": "Pour toute réservation de groupe de 10 personnes et plus, vous pouvez nous contacter : En personne à la réception ou par courriel à : contact@jeuxp.com"
+          },
+          {
+            "question": "Est-ce que vous faites des fêtes ou événements privés?",
+            "answer": "Oui ! Il est possible de réserver l'espace complet pour une fête, un événement d'entreprise ou une activité spéciale. Consultez la section Réservation de groupe ou contactez-nous pour plus d'informations."
+          },
+          {
+            "question": "Avez-vous des cartes-cadeaux?",
+            "answer": "Oui, elles sont disponibles directement à la réception."
+          },
+          {
+            "question": "Quelle est votre politique d'annulation?",
+            "answer": "Après l'achat de votre bracelet, aucun remboursement n'est possible, sauf en cas de bris majeur du jeu empêchant l'expérience de se dérouler normalement."
+          }
+        ]
+      }
+    ]
+  },
+  "legal": {
+    "title": "Conditions Générales",
+    "rules": {
+      "title": "Règlements",
+      "items": [
+        "L'accès aux jeux est réservé aux personnes âgées de 6 ans et plus. Les enfants de moins de 12 ans doivent être accompagnés par un adulte responsable.",
+        "L'accès est interdit à toute personne sous l'influence d'alcool, de drogues ou de substances affectant ses facultés.",
+        "Les participants doivent se conformer en tout temps aux instructions du personnel. Tout refus d'obtempérer pourra entraîner l'expulsion immédiate sans remboursement.",
+        "Toute utilisation abusive ou dommage volontaire causé aux équipements ou aux salles entraînera la facturation des coûts de réparation ou de remplacement.",
+        "Les participants doivent adopter un comportement sécuritaire et respectueux à l'égard des autres joueurs et du personnel. Tout comportement jugé dangereux, violent ou inapproprié pourra mener à une expulsion sans remboursement."
+      ]
+    },
+    "terms": {
+      "title": "Conditions d'utilisation",
+      "items": [
+        "La participation aux activités de JeuXP se fait aux risques et périls des participants. Bien que les jeux soient conçus pour être sécuritaires, l'Exploitant ne peut être tenu responsable de blessures mineures, chutes ou accidents pouvant survenir dans le cadre normal de l'activité.",
+        "Toutes les ventes de billets sont finales, non remboursables et non échangeables, sauf disposition contraire prévue par la loi. Les prix affichés sont avant taxes.",
+        "L'Exploitant n'assume aucune responsabilité pour toute perte, vol ou dommage matériel subi par les participants lors de leur présence dans les installations.",
+        "L'Exploitant se réserve le droit d'expulser tout participant qui ne respecte pas les règlements ou adopte un comportement jugé inadéquat, et ce, sans remboursement.",
+        "Les présentes Conditions d'utilisation sont régies par les lois du Québec. Tout litige sera soumis à la compétence exclusive des tribunaux du district judiciaire de Montréal (Québec)."
+      ]
+    },
+    "privacy": {
+      "title": "Politique de confidentialité",
+      "items": [
+        "JeuXP peut recueillir certains renseignements personnels, notamment le nom, l'adresse courriel, le numéro de téléphone ainsi que les informations liées aux réservations et aux paiements.",
+        "Ces renseignements sont utilisés uniquement pour gérer les réservations et paiements, communiquer avec les clients (confirmation, suivi, promotions) et assurer la sécurité et le bon fonctionnement des activités.",
+        "Les renseignements sont conservés de manière sécuritaire et uniquement pour la durée nécessaire aux fins pour lesquelles ils ont été recueillis. L'accès est limité au personnel autorisé de JeuXP."
+      ]
+    }
+  },
+  "footer": {
+    "tagline": "Ta légende commence ici",
+    "location": {
+      "title": "Localisation",
+      "mall": "Carrefour Angrignon",
+      "address": "7077 Newman Blvd, LaSalle, Quebec H8N 0K1"
+    },
+    "contact": {
+      "title": "Contact",
+      "email": "contact@jeuxp.com"
+    },
+    "social": {
+      "title": "Réseaux Sociaux",
+      "tiktok": "https://www.tiktok.com/@jeuxp_game",
+      "facebook": "https://www.facebook.com/profile.php?id=61584206935267"
+    },
+    "newsletter": {
+      "title": "S'abonner à l'infolettre",
+      "placeholder": "Ton adresse courriel",
+      "button": "S'abonner",
+      "success": "Merci pour ton inscription!"
+    },
+    "legal": {
+      "rules": "Règlements",
+      "terms": "Conditions d'utilisation",
+      "privacy": "Politique de confidentialité"
+    },
+    "copyright": "© 2025 JeuXP. Tous droits réservés"
+  },
+  "common": {
+    "learnMore": "En savoir plus",
+    "contactUs": "Contactez-nous",
+    "bookNow": "Réserver maintenant",
+    "viewAll": "Voir tout",
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "backToHome": "Retour à l'accueil"
+  }
+}
