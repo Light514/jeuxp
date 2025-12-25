@@ -2,18 +2,13 @@
 
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import Image from "next/image";
 import UnicornScene from "unicornstudio-react";
 
 interface HeroUnicornProps {
   jsonFilePath: string;
-  fallbackImage?: string;
 }
 
-export function HeroUnicorn({
-  jsonFilePath,
-  fallbackImage = "/images/challenges/toxic.webp",
-}: HeroUnicornProps) {
+export function HeroUnicorn({ jsonFilePath }: HeroUnicornProps) {
   const [status, setStatus] = useState<"loading" | "ready" | "error">("loading");
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
   const isLoading = status === "loading";
@@ -50,20 +45,9 @@ export function HeroUnicorn({
     };
   }, [status]);
 
-  // Show fallback image for reduced motion or errors
+  // Show black screen fallback for reduced motion or errors
   if (prefersReducedMotion || status === "error") {
-    return (
-      <div className="absolute inset-0">
-        <Image
-          src={fallbackImage}
-          alt="JeuXP Cyberpunk Experience"
-          fill
-          className="object-cover"
-          priority
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-cyber-black via-cyber-black/50 to-cyber-black/30" />
-      </div>
-    );
+    return <div className="absolute inset-0 bg-cyber-black" />;
   }
 
   return (

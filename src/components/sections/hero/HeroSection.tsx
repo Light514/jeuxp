@@ -16,10 +16,7 @@ export function HeroSection({ announcement, tagline, ctaText, ctaHref }: HeroSec
   return (
     <section className="relative h-screen w-full overflow-hidden">
       {/* Unicorn Studio Background */}
-      <HeroUnicorn
-        jsonFilePath="/hero-scene.json"
-        fallbackImage="/images/challenges/toxic.webp"
-      />
+      <HeroUnicorn jsonFilePath="/hero-scene.json" />
 
       {/* Top Announcement - Minimal */}
       <motion.div
