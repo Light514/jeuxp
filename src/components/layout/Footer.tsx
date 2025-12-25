@@ -145,9 +145,21 @@ export function Footer({ dictionary }: FooterProps) {
         </div>
 
         {/* Copyright */}
-        <div className="mt-12 pt-8 border-t border-cyber-gray-light">
+        <div className="mt-12 pt-8 border-t border-cyber-gray-light space-y-2">
           <p className="text-center text-sm text-gray-500">
             {dictionary.copyright}
+          </p>
+          <p className="text-center text-xs text-gray-600">
+            Site réalisé par{" "}
+            <a
+              href="https://saminspire.ca"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-neon-cyan/70 hover:text-neon-cyan transition-colors"
+            >
+              Saminspire
+            </a>{" "}
+            avec passion
           </p>
         </div>
       </Container>
