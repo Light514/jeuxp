@@ -38,7 +38,7 @@ export function HeroSection({ announcement, tagline, ctaText, ctaHref }: HeroSec
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.7 }}
-            className="font-display text-4xl md:text-6xl lg:text-7xl text-center mb-8 max-w-4xl bg-gradient-to-r from-white via-neon-cyan to-white bg-clip-text text-transparent"
+            className="font-display text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-center mb-6 max-w-4xl bg-gradient-to-r from-white via-neon-cyan to-white bg-clip-text text-transparent"
           >
             {tagline}
           </motion.h1>
