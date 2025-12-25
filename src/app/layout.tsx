@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Orbitron } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
-import { CookieBanner } from "@/components/shared";
+import { CookieBanner, EasterEggsProvider } from "@/components/shared";
 import "./globals.css";
 
 const inter = Inter({
@@ -58,7 +58,9 @@ export default function RootLayout({
   return (
     <html lang="fr" className={`${inter.variable} ${orbitron.variable}`}>
       <body className="min-h-screen">
-        {children}
+        <EasterEggsProvider>
+          {children}
+        </EasterEggsProvider>
         <CookieBanner />
         <Analytics />
       </body>

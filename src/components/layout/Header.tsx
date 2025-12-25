@@ -10,6 +10,7 @@ import { Navigation } from "./Navigation";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { routes, getLocaleFromPath, type Locale } from "@/lib/i18n/config";
 import type { Dictionary } from "@/lib/i18n/dictionaries";
+import { useSecretLogoClick, SecretMessage } from "@/components/shared";
 
 interface HeaderProps {
   dictionary: Dictionary["nav"];
@@ -21,6 +22,7 @@ export function Header({ dictionary }: HeaderProps) {
   const pathname = usePathname();
   const locale = getLocaleFromPath(pathname) as Locale;
   const homeRoute = routes[locale].home;
+  const { handleClick: handleLogoClick, activated: secretActivated } = useSecretLogoClick(5);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -47,8 +49,8 @@ export function Header({ dictionary }: HeaderProps) {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
-          {/* Logo */}
-          <Link href={homeRoute} className="flex-shrink-0">
+          {/* Logo with secret click */}
+          <Link href={homeRoute} className="flex-shrink-0" onClick={handleLogoClick}>
             <Image
               src="/images/logos/Logo_JeuGames_NoBG-1.webp"
               alt="JeuXP"
@@ -120,6 +122,9 @@ export function Header({ dictionary }: HeaderProps) {
           </motion.div>
         )}
       </AnimatePresence>
+
+      {/* Secret Easter Egg Message */}
+      <SecretMessage show={secretActivated} />
     </header>
   );
 }
