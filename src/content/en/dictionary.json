@@ -13,6 +13,7 @@
   },
   "home": {
     "announcement": "JeuXP is coming to LaSalle in 2026",
+    "tagline": "Your legend starts here",
     "cta": "Discover the experience"
   },
   "challenges": {
@@ -143,22 +144,22 @@
     },
     "differentiators": [
       {
-        "icon": "⚡",
+        "icon": "zap",
         "title": "Speed",
         "description": "3-minute challenges vs 60-minute traditional escape games. Instant, intense action."
       },
       {
-        "icon": "🔄",
+        "icon": "refresh-cw",
         "title": "Replayability",
         "description": "Gamified XP system. Level up, improve your scores, become a legend. Not a one-time experience."
       },
       {
-        "icon": "💰",
+        "icon": "dollar-sign",
         "title": "Accessibility",
         "description": "Affordable pricing, no reservations required. Show up when you want, play as much as you want."
       },
       {
-        "icon": "🎮",
+        "icon": "gamepad",
         "title": "Modernity",
         "description": "Cyberpunk universe, neon aesthetics, video game-inspired challenges. Built for Gen Z and gamers."
       }
@@ -176,22 +177,22 @@
     "intro": "At JeuXP, we believe innovation is born from collaboration. As the first center in Montreal to offer interactive challenge rooms inspired by global trends, our goal goes beyond entertainment — we're building an ecosystem where businesses, institutions, and creators come together to inspire the next generation.",
     "eventTypes": [
       {
-        "icon": "🎂",
+        "icon": "cake",
         "title": "Birthday Parties",
         "description": "Celebrate your birthday with friends in a unique cyberpunk universe. Team challenges, friendly competition, and unforgettable memories."
       },
       {
-        "icon": "💼",
+        "icon": "briefcase",
         "title": "Corporate Team Building",
         "description": "Strengthen team cohesion with collaborative and competitive challenges. An original activity that breaks from the usual routine."
       },
       {
-        "icon": "🎓",
+        "icon": "graduation-cap",
         "title": "School Groups",
         "description": "Supervised activity for schools, colleges, and student associations. Combine fun with skill development."
       },
       {
-        "icon": "🎉",
+        "icon": "party-popper",
         "title": "Private Events",
         "description": "Reserve the entire space for your special event. Private party, product launch, corporate celebration."
       }

@@ -14,12 +14,12 @@ interface ButtonProps extends Omit<HTMLMotionProps<"button">, "ref"> {
 
 const variants: Record<ButtonVariant, string> = {
   primary:
-    "bg-neon-cyan text-cyber-black font-semibold hover:shadow-neon-cyan",
+    "bg-neon-cyan text-cyber-black font-semibold hover:bg-white hover:shadow-[0_0_30px_rgba(0,240,255,0.5)]",
   secondary:
-    "bg-neon-magenta text-white font-semibold hover:shadow-neon-magenta",
+    "bg-neon-magenta text-white font-semibold hover:bg-white hover:text-cyber-black hover:shadow-[0_0_30px_rgba(255,0,255,0.5)]",
   ghost: "bg-transparent text-neon-cyan hover:bg-neon-cyan/10",
   outline:
-    "border-2 border-neon-cyan text-neon-cyan hover:bg-neon-cyan/10 hover:shadow-neon-cyan",
+    "border-2 border-neon-cyan text-neon-cyan hover:bg-neon-cyan hover:text-cyber-black hover:shadow-[0_0_30px_rgba(0,240,255,0.5)]",
 };
 
 const sizes: Record<ButtonSize, string> = {

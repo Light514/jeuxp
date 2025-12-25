@@ -1,30 +1,21 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Image from "next/image";
-
-declare global {
-  interface Window {
-    UnicornStudio?: {
-      init: () => Promise<void>;
-      destroy: () => void;
-    };
-  }
-}
+import UnicornScene from "unicornstudio-react";
 
 interface HeroUnicornProps {
-  projectId: string;
+  jsonFilePath: string;
   fallbackImage?: string;
 }
 
 export function HeroUnicorn({
-  projectId,
+  jsonFilePath,
   fallbackImage = "/images/challenges/toxic.webp",
 }: HeroUnicornProps) {
   const [status, setStatus] = useState<"loading" | "ready" | "error">("loading");
   const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
-  const containerRef = useRef<HTMLDivElement>(null);
   const isLoading = status === "loading";
 
   useEffect(() => {
@@ -46,45 +37,18 @@ export function HeroUnicorn({
 
     mediaQuery.addEventListener("change", handleChange);
 
-    // Load Unicorn Studio embed script
-    const script = document.createElement("script");
-    script.src = "https://cdn.unicorn.studio/v1.3.2/unicornStudio.umd.js";
-    script.async = true;
-
-    script.onload = () => {
-      if (window.UnicornStudio) {
-        window.UnicornStudio.init()
-          .then(() => {
-            setStatus("ready");
-          })
-          .catch(() => {
-            setStatus("error");
-          });
-      } else {
-        setStatus("error");
+    // Set ready after a short delay to ensure component is mounted
+    const timeout = setTimeout(() => {
+      if (status === "loading") {
+        setStatus("ready");
       }
-    };
-
-    script.onerror = () => {
-      setStatus("error");
-    };
-
-    document.head.appendChild(script);
+    }, 2000);
 
     return () => {
       mediaQuery.removeEventListener("change", handleChange);
-      if (window.UnicornStudio) {
-        window.UnicornStudio.destroy();
-      }
-      // Clean up script
-      const existingScript = document.querySelector(
-        'script[src*="unicornStudio"]'
-      );
-      if (existingScript) {
-        existingScript.remove();
-      }
+      clearTimeout(timeout);
     };
-  }, []);
+  }, [status]);
 
   // Show fallback image for reduced motion or errors
   if (prefersReducedMotion || status === "error") {
@@ -103,7 +67,7 @@ export function HeroUnicorn({
   }
 
   return (
-    <div ref={containerRef} className="absolute inset-0">
+    <div className="absolute inset-0">
       {/* Loading state */}
       <AnimatePresence>
         {isLoading && (
@@ -114,7 +78,11 @@ export function HeroUnicorn({
             className="absolute inset-0 bg-cyber-black flex items-center justify-center z-10"
           >
             <div className="flex flex-col items-center gap-4">
-              <div className="w-12 h-12 border-2 border-neon-cyan border-t-transparent rounded-full animate-spin" />
+              <motion.div
+                animate={{ rotate: 360 }}
+                transition={{ duration: 1, repeat: Infinity, ease: "linear" }}
+                className="w-12 h-12 border-2 border-neon-cyan border-t-transparent rounded-full"
+              />
               <span className="text-sm text-gray-400 font-display uppercase tracking-wider">
                 Loading experience...
               </span>
@@ -123,16 +91,20 @@ export function HeroUnicorn({
         )}
       </AnimatePresence>
 
-      {/* Unicorn Studio embed container */}
+      {/* Unicorn Studio React component */}
       <div
-        data-us-project={projectId}
-        style={{
-          width: "100%",
-          height: "100%",
-          position: "absolute",
-          inset: 0,
-        }}
-      />
+        id="hero-3d-container"
+        className="absolute inset-0 w-full h-full"
+        aria-label="3D visual element"
+      >
+        <UnicornScene
+          jsonFilePath={jsonFilePath}
+          width="100%"
+          height="100%"
+          scale={1}
+          dpi={1.5}
+        />
+      </div>
 
       {/* Gradient overlay for text readability */}
       <div className="absolute inset-0 bg-gradient-to-t from-cyber-black via-transparent to-cyber-black/30 pointer-events-none" />

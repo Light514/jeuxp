@@ -13,6 +13,7 @@
   },
   "home": {
     "announcement": "JeuXP arrive à LaSalle en 2026",
+    "tagline": "Ta légende commence ici",
     "cta": "Découvre l'expérience"
   },
   "challenges": {
@@ -143,22 +144,22 @@
     },
     "differentiators": [
       {
-        "icon": "⚡",
+        "icon": "zap",
         "title": "Rapidité",
         "description": "3 minutes par défi vs 60 minutes pour les escape games traditionnels. Action intense et immédiate."
       },
       {
-        "icon": "🔄",
+        "icon": "refresh-cw",
         "title": "Rejouabilité",
         "description": "Système XP gamifié. Monte de niveau, améliore tes scores, deviens une légende. Pas une expérience one-time."
       },
       {
-        "icon": "💰",
+        "icon": "dollar-sign",
         "title": "Accessibilité",
         "description": "Prix abordables, pas de réservation nécessaire. Viens quand tu veux, joue autant que tu veux."
       },
       {
-        "icon": "🎮",
+        "icon": "gamepad",
         "title": "Modernité",
         "description": "Univers cyberpunk, esthétique néon, défis inspirés des jeux vidéo. Conçu pour la Gen Z et les gamers."
       }
@@ -176,22 +177,22 @@
     "intro": "Chez JeuXP, nous croyons que l'innovation naît de la collaboration. Premier centre à Montréal à offrir des salles de défis interactives inspirées des tendances mondiales, nous voulons bâtir plus qu'un lieu de divertissement : un écosystème où entreprises, institutions et créateurs de contenu se rencontrent pour inspirer la nouvelle génération.",
     "eventTypes": [
       {
-        "icon": "🎂",
+        "icon": "cake",
         "title": "Fêtes d'anniversaire",
         "description": "Célèbre ton anniversaire avec tes amis dans un univers cyberpunk unique. Défis en équipe, compétition amicale, et souvenirs inoubliables."
       },
       {
-        "icon": "💼",
+        "icon": "briefcase",
         "title": "Team Building Corporate",
         "description": "Renforcez la cohésion d'équipe avec des défis collaboratifs et compétitifs. Une activité originale qui sort du cadre habituel."
       },
       {
-        "icon": "🎓",
+        "icon": "graduation-cap",
         "title": "Groupes Scolaires",
         "description": "Activité encadrée pour les écoles, cégeps et associations étudiantes. Allier plaisir et développement de compétences."
       },
       {
-        "icon": "🎉",
+        "icon": "party-popper",
         "title": "Événements Privés",
         "description": "Réservez l'espace complet pour votre événement spécial. Soirée privée, lancement de produit, célébration d'entreprise."
       }

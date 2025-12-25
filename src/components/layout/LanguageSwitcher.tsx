@@ -3,12 +3,11 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils/cn";
-import { type Locale, getAlternateRoute, getLocaleFromPath } from "@/lib/i18n/config";
+import { getAlternateRoute, getLocaleFromPath } from "@/lib/i18n/config";
 
 export function LanguageSwitcher() {
   const pathname = usePathname();
   const currentLocale = getLocaleFromPath(pathname);
-  const targetLocale: Locale = currentLocale === "fr" ? "en" : "fr";
   const targetPath = getAlternateRoute(pathname, currentLocale);
 
   return (

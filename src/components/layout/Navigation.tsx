@@ -19,8 +19,8 @@ export function Navigation({ dictionary, className, onLinkClick }: NavigationPro
 
   const links = [
     { href: localeRoutes.challenges, label: dictionary.challenges },
-    { href: localeRoutes.groupsEvents, label: dictionary.groupsEvents },
     { href: localeRoutes.faq, label: dictionary.faq },
+    { href: localeRoutes.groupsEvents, label: dictionary.groupsEvents },
     { href: localeRoutes.about, label: dictionary.about },
   ];
 

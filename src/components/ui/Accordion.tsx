@@ -18,42 +18,33 @@ export function Accordion({ items, className }: AccordionProps) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   return (
-    <div className={cn("space-y-3", className)}>
+    <div className={cn("divide-y divide-cyber-gray-light/50", className)}>
       {items.map((item, index) => (
-        <div
-          key={index}
-          className="border border-cyber-gray-light rounded-sm overflow-hidden"
-        >
+        <div key={index} className="py-4">
           <button
             onClick={() => setOpenIndex(openIndex === index ? null : index)}
-            className={cn(
-              "w-full px-6 py-4 text-left flex items-center justify-between",
-              "bg-cyber-gray/30 hover:bg-cyber-gray/50 transition-colors",
-              "focus:outline-none focus:ring-2 focus:ring-neon-cyan focus:ring-inset"
-            )}
+            className="w-full text-left flex items-start justify-between gap-4 focus:outline-none group"
             aria-expanded={openIndex === index}
           >
-            <span className="font-medium text-white pr-4">{item.question}</span>
-            <motion.span
-              animate={{ rotate: openIndex === index ? 45 : 0 }}
-              transition={{ duration: 0.2 }}
-              className="text-neon-cyan text-2xl flex-shrink-0 font-light"
-            >
-              +
-            </motion.span>
+            <span className="text-white group-hover:text-neon-cyan transition-colors">
+              {item.question}
+            </span>
+            <span className="text-gray-500 text-sm flex-shrink-0 mt-1">
+              {openIndex === index ? "−" : "+"}
+            </span>
           </button>
           <AnimatePresence initial={false}>
             {openIndex === index && (
               <motion.div
-                initial={{ height: 0 }}
-                animate={{ height: "auto" }}
-                exit={{ height: 0 }}
-                transition={{ duration: 0.3, ease: "easeInOut" }}
+                initial={{ height: 0, opacity: 0 }}
+                animate={{ height: "auto", opacity: 1 }}
+                exit={{ height: 0, opacity: 0 }}
+                transition={{ duration: 0.2 }}
                 className="overflow-hidden"
               >
-                <div className="px-6 py-4 text-gray-400 bg-cyber-dark/50 leading-relaxed">
+                <p className="pt-4 text-gray-400 leading-relaxed">
                   {item.answer}
-                </div>
+                </p>
               </motion.div>
             )}
           </AnimatePresence>

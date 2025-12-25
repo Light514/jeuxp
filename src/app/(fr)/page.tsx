@@ -7,6 +7,7 @@ export default async function HomePage() {
   return (
     <HeroSection
       announcement={dictionary.home.announcement}
+      tagline={dictionary.home.tagline}
       ctaText={dictionary.home.cta}
       ctaHref="/defis"
     />

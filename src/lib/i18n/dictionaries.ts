@@ -16,6 +16,7 @@ export interface Dictionary {
   };
   home: {
     announcement: string;
+    tagline: string;
     cta: string;
   };
   challenges: {
